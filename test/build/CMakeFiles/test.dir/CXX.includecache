@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tyj/projects/test/Transform.h
+vector
+-
+
+/home/tyj/projects/test/cl.h
+
+/home/tyj/projects/test/global.h
+cl.h
+/home/tyj/projects/test/cl.h
+
+/home/tyj/projects/test/main.cpp
+iostream
+-
+global.h
+/home/tyj/projects/test/global.h
+Transform.h
+/home/tyj/projects/test/Transform.h
+
